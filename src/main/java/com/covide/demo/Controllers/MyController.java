@@ -35,5 +35,9 @@ public class MyController {
         
          return "allinfo";
     }
+     @GetMapping("/newuser")
+    public String reg() {
+        return "redirect:/"; 
+    }
 
 }
